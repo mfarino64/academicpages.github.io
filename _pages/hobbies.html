@@ -1,0 +1,30 @@
+---
+layout: archive
+title: "Hobbies"
+permalink: /hobbies/
+author_profile: true
+---
+
+{% include base_path %}
+
+When I'm not scanning stackexchange forums to understand how this website template works, you can find me
+
+<ul>
+  <li>Checking the <a href="https://www.merriam-webster.com/word-of-the-day" target="_blank">word of the day</a></li>
+  <li>Playing the clarinet or trying to learn a new instrument (I'm a member of the Princeton University Sinfonia and you can view our latest concert <a href="https://www.kaltura.com/index.php/extwidget/preview/partner_id/1449362/uiconf_id/14292362/entry_id/1_8sd2e064/embed/dynamic?" target="_blank">here</a>!)</li>
+  <li>Dreaming about the day the Pittsburgh Pirates make it back to the playoffs</li>
+  <li>Not spending nearly enough time reading, but still mentioning it in conversation</li>
+  <li>Posing heroically atop dinosaurs (still thinking about the Pirates)</li>
+</ul>
+
+<div>
+  <img src="/images/dino2.HEIC" style="float: left; width: 35.9%; height: 35.9%;" alt="dino2" >
+  <img src="/images/dino1.HEIC" style="float: left; width: 63.7%; height: 63.7%;"  alt="dino1" >
+</div>
+
+
+
+{% for post in site.hobbies %}
+  {% include archive-single.html %}
+{% endfor %}
+
